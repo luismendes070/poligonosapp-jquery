@@ -29,3 +29,6 @@ function onMapClick(e) {
 }
 
 map.on('click', onMapClick);
+
+// zoom the map to the polygon
+map.fitBounds(polygon2.getBounds());
