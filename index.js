@@ -1,7 +1,7 @@
 // Import stylesheets
 import './style.css';
 
-import { * as L } from "leaflet";
+const L = require("leaflet");
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');
